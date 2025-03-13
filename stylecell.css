@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media (max-width: 420px) {
+@media (max-width: 390px) {
 
     html,body {
         overflow: auto;
