@@ -55,9 +55,9 @@
     }
     
     a {
-        text-decoration: none;
         color: white;
         text-transform: unset;
+        text-decoration: overline #4D55CC;
     }
    
 
