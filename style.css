@@ -48,12 +48,40 @@ img{
     border: 2px solid white;
 }
 
-title {
-    display: none;
+
+#zap {
+    width: 100%;
+    position: fixed;
+    border: 1px solid black;
+    max-width: 20px;
+    left: -5px;
+    top: 205px;
 }
+
+#insta{
+    width: 100%;
+    position: fixed;
+    border: 1px solid black;
+    max-width: 20px;
+    left: 48px;
+    top: 222px;
+}
+
+#tele {
+    width: 100%;
+    position: fixed;
+    border: 1px solid black;
+    max-width: 20px;
+    left: 48px;
+    top: 222px;
+}
+
+
+
 
 a {
     text-decoration: none;
     color: white;
     text-transform: unset;
 }
+
