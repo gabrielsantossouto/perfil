@@ -49,7 +49,8 @@ img{
 }
 
 .rede:hover {
-
+    background-color: black;
+    padding-left: 2px;
 }
 
 
