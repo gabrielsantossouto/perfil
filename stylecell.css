@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 
     html,body {
         overflow: auto;
@@ -27,38 +27,37 @@
         padding-bottom: 20px;
         position: fixed;
         top: 145px;
-        left: 165px;
+        left: 145px;
         text-shadow: 2px 2px 4px #4d55cc;
-        width: 200px;
+        max-width: 200px;
+        width: 100%;
     }
     
     
     ol{
         position: fixed;
-        display: flex;
-        text-indent: 20px;
+        text-indent: 5px;
         list-style-type: none;
-        top: 210px;
-        left: 130px;
+        top: 220px;
+        left: 135px;
+        width: 100%;
         }
     
     img{
         border-radius: 50%;
-        width: 115px;
+        max-width: 115px;
         position: fixed;
         top: 100px;
         margin: 0px 0px 0px 10px;
         border: 2px solid #211C84;
+        width: 100%;
     }
-    
-    title {
-        display: none;
-    }
-    
+
     a {
         color: white;
         text-transform: unset;
         text-decoration: overline #4D55CC;
+        width: 100%;
     }
    
 
