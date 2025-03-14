@@ -48,6 +48,10 @@ img{
     border: 2px solid white;
 }
 
+.rede:hover {
+
+}
+
 
 #zap {
     width: 100%;
@@ -72,8 +76,8 @@ img{
     position: fixed;
     border: 1px solid black;
     max-width: 30px;
-    left: 105px;
-    top: 205px;
+    left: 100px;
+    top: 204px;
 }
 
 
