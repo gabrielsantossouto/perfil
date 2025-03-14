@@ -27,8 +27,9 @@
         padding-bottom: 20px;
         position: fixed;
         top: 145px;
-        left: 130px;
+        left: 165px;
         text-shadow: 2px 2px 4px #4d55cc;
+        width: 200px;
     }
     
     
@@ -43,7 +44,7 @@
     
     img{
         border-radius: 50%;
-        width: 135px;
+        width: 115px;
         position: fixed;
         top: 100px;
         margin: 0px 0px 0px 10px;
