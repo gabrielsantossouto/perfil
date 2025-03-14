@@ -50,7 +50,7 @@ img{
 
 .rede:hover {
     background-color: black;
-    padding-left: 2px;
+    transform: scale(1.25);
 }
 
 
@@ -59,8 +59,8 @@ img{
     position: fixed;
     border: 1px solid black;
     max-width: 30px;
-    left: -5px;
-    top: 205px;
+    left: 45px;
+    top: 350px;
 }
 
 #insta{
@@ -68,8 +68,8 @@ img{
     position: fixed;
     border: 1px solid black;
     max-width: 30px;
-    left: 48px;
-    top: 222px;
+    left: 45px;
+    top: 350px;
 }
 
 #tele {
@@ -77,11 +77,13 @@ img{
     position: fixed;
     border: 1px solid black;
     max-width: 30px;
-    left: 100px;
-    top: 204px;
+    left: 45px;
+    top: 350px;
 }
 
-
+h1 br {
+    display: none;
+}
 
 
 a {

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media (max-width: 395px) {
+@media (max-width: 320px) {
 
     html,body {
         overflow: auto;
@@ -27,7 +27,7 @@
         padding-bottom: 20px;
         position: fixed;
         top: 140px;
-        left: 180px;
+        left: 155px;
         text-shadow: 2px 2px 4px #4d55cc;
     }
     
@@ -53,7 +53,6 @@
     
     .rede:hover {
         border: 1px solid #211C84;
-        padding-left: 2px;
     }
     
     
