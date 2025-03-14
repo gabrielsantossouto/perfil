@@ -53,7 +53,7 @@ img{
     width: 100%;
     position: fixed;
     border: 1px solid black;
-    max-width: 20px;
+    max-width: 30px;
     left: -5px;
     top: 205px;
 }
@@ -62,7 +62,7 @@ img{
     width: 100%;
     position: fixed;
     border: 1px solid black;
-    max-width: 20px;
+    max-width: 30px;
     left: 48px;
     top: 222px;
 }
@@ -71,7 +71,7 @@ img{
     width: 100%;
     position: fixed;
     border: 1px solid black;
-    max-width: 20px;
+    max-width: 30px;
     left: 105px;
     top: 205px;
 }
