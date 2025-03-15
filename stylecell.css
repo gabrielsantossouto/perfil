@@ -3,60 +3,69 @@
 @media (max-width: 600px) {
 
     html,body {
-        overflow: auto;
-        overflow-x: hidden
+        overflow-x: hidden;
+        height: 100%;
+        width: 100%;
     }
     
     * {
         margin: 0px;
         padding: 0px;
     }
+
+    br {
+        display: none;
+    }
     
     div {
         margin: 0px;
         padding: 0px;
     }
-    
-    
+
     body{
-        background-color: #7A73D1;
+        background-color: #222831;
         height: 100vh;
     }
     
     .intro {
         text-align: left;
         padding-bottom: 20px;
-        position: relative;
-        top: -5px;
-        left: 145px;
-        text-shadow: 2px 2px 4px #4d55cc;
+        position: absolute;
+        text-shadow: 3px 3px 10px black;
         font-style: italic;
-        font-size: 14px;
+        font-size: 15px;
         font-family: arial;
+        top: 36%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
     }
     
-    img{
-        border-radius: 50%;
-        width: 120px;
-        position: relative;
-        top: 95px;
-        margin: 0px 0px 0px 10px;
-        border: 2px solid #211C84;
-        left: 2px;
-        box-shadow: 2px 3px 8px black;
+    .foto {
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      border: 2px solid #D65A31;
+      box-shadow: 2px 3px 8px black; 
         }
     
     #subintro {
-        position: relative;
-        color: white;
-        left: 150px;
-        top: -30px;
-        font-size: 8px;
-        font-family: cursive;
-        text-shadow: 3px 1px 5px black;
-        letter-spacing: 2px;
-    }
-   
+        padding-bottom: 20px;
+        position: absolute;
+        text-shadow: 3px 3px 10px black;
+        font-style: italic;
+        font-size: 7px;
+        font-family: arial;
+        top: 39%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #D65A31;
+    
+        }
 
     
 
