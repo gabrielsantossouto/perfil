@@ -19,16 +19,47 @@ body {
     background-color: #09122C;
 }
 
-img {
+section div img {
     width: 150px;
     border-radius: 40%;
     border: 2px solid #BE3144;
 }
 
-h1 {
-    color: #ffff;
+section h1 {
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 3px 4px 10px rgba(255, 255, 255, 0.150);
+    
 }
 
-p {
-    color: #872341;
+section p {
+    color: #E17564;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 3px 4px 10px #e1756457;
+}
+
+div#barra {
+    width: auto;
+    height: 2px;
+    background-color: white;
+}
+
+section#corpo h1{
+    color: #F14A00;
+    text-shadow: 4px 2px 9px #f1480074;;
+    height: 280px;
+}
+
+section#corpo p {
+    color: #F0BB78;
+    width: 150px;
+    height: 200px;
+}
+
+section#corpo p img {
+    display: flex;
+    width: 30px;
+    position: fixed;
+    height: auto;
+    margin: 0px 5px 0px 5px;
 }
