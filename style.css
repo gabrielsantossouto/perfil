@@ -90,19 +90,22 @@ section#corpo h1{
 
 
 section#corpo p {
-    color: #F0BB78;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    width: 250px;
     display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content:center;
-    margin-bottom: 10px;
-    width: 150px;
-    height: 200px;
-}
+    justify-content: center;
+    justify-items: center;
+    margin: 5px auto 5px auto;
+    text-align: center;
+    text-indent: 10px;
+    color: #a9a9a9;
+    font-size: 13pt;
+    top: -50px;
 
-section#corpo p img {
-    display: inline-block;
-    width: 30px;
-    margin-right: 10px;
-    height: auto;
+}
+@media (max-width: 300px) {
+    div#barra {
+        width: 250px;
+    }
 }
