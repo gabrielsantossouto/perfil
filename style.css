@@ -99,8 +99,8 @@ section#corpo p {
     justify-content: center;
     margin: auto;
     height: 250px;
-
 }
+
 @media (max-width: 600px) {
     div#barra {
         width: 250px;
