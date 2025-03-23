@@ -85,26 +85,23 @@ section#corpo h1{
     text-align: center;
     color: #F14A00;
     text-shadow: 4px 2px 9px #f1480074;;
-    height: 280px;
+    height: auto;
 }
 
 
 section#corpo p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: relative;
-    width: 250px;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    margin: 5px auto 5px auto;
-    text-align: center;
+    width: 160px;
     text-indent: 10px;
     color: #a9a9a9;
-    font-size: 13pt;
-    top: -50px;
+    font-size: 10pt;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 250px;
 
 }
-@media (max-width: 300px) {
+@media (max-width: 600px) {
     div#barra {
         width: 250px;
     }
