@@ -105,4 +105,17 @@ section#corpo p {
     div#barra {
         width: 250px;
     }
+
+    @keyframes barra {
+        0% {
+            width: 0;
+            opacity: 0;
+            
+        }
+    
+        100% {
+            width: 250px;
+            opacity: 1;
+        }
+    }
 }

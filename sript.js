@@ -1,6 +1,5 @@
 let img = document.getElementById('borda')
 let clicado = true
-
 function clicou(){
     if (clicado == true){
         clicado = false
