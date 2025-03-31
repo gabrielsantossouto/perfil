@@ -23,7 +23,7 @@ body {
 section div img {
     width: 150px;
     border-radius: 40%;
-    border: 2px solid #BE3144;
+    border: 2px solid #b13803;
     animation-name: borda;
     animation-duration: 0.5s;
     animation-iteration-count: 1;
@@ -49,9 +49,9 @@ section h1 {
 }
 
 section p {
-    color: #E17564;
+    color: #b13803;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-shadow: 3px 4px 10px #e1756457;
+    text-shadow: 2px 2px 16px rgba(233, 95, 74, 0.575)
 }
 
 div#barra {
@@ -91,6 +91,7 @@ section#corpo h1{
 
 
 section#corpo p {
+    margin: 5px 0px 0px 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 160px;
     text-indent: 10px;
@@ -99,7 +100,7 @@ section#corpo p {
     display: flex;
     justify-content: center;
     margin: auto;
-    height: 65px;
+    height: auto;
 }
 
 
