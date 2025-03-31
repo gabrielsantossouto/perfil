@@ -202,4 +202,25 @@ div p {
     }
 }
 
-
+@media (max-width: 900px) {
+    #htmlfoto {
+        max-width: 100px;
+        width: auto;
+        height: auto;
+    }
+    #cssfoto {
+        max-width: 100px;
+        width: auto;
+        height: auto;
+    }
+    #javascriptfoto {
+        max-width: 95px;
+        width: auto;
+        height: auto;
+        border-radius: 18px;
+    }
+    
+    #linguagens {
+       max-width: 300px;
+    }
+}
