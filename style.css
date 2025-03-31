@@ -60,25 +60,32 @@ div#barra {
     width: 450px;
     height: 1px;
     background-color: white;
-    animation-name: barra;
-    animation-duration: 0.5s;
+}
+
+section#linguagens {
+    animation-name: bloco;
+    animation-duration: 400ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+
+}
+
+section img {
+    animation-name: imagens;
+    animation-duration: 450ms;
     animation-timing-function: linear;
     animation-iteration-count: 1;
 }
 
-@keyframes barra {
-    0% {
-        width: 0;
-        opacity: 0;
-        
-    }
-
-    100% {
-        width: 450px;
-        opacity: 1;
-    }
+@keyframes imagens {
+    0% {width: 0; opacity: 0;}
+    100% {width: 300px; opacity: 100%;}
 }
 
+@keyframes bloco {
+    0% {width: 0; opacity: 0;}
+    100% {width: 900px; opacity: 100%;}
+}
 
 section#corpo h1{
     display: flex;
@@ -123,6 +130,24 @@ section#corpo p {
             color: white;
         }
     }
+
+    section img {
+        animation-duration: 0.6s;
+    }
+
+    section#linguagens {
+        animation-duration: 0.4s;
+    }
+
+    @keyframes imagens {
+        0% {width: 0; opacity: 0;}
+        100% {width: 600px; opacity: 100%;}
+    }
+    
+    @keyframes bloco {
+        0% {width: 0; opacity: 0;}
+        100% {width: 600px; opacity: 100%;}
+    }
 }
 
 
@@ -164,6 +189,53 @@ div p {
     font-size: 25px;
 }
 
+@media (max-width: 900px) {
+    
+    section#linguagens {
+        max-width: 550px;
+    }
+    
+    #htmlfoto {
+        max-width: 150px;
+        width: auto;
+        height: auto;
+    }
+    #cssfoto {
+        max-width: 150px;
+        width: auto;
+        height: auto;
+    }
+    #javascriptfoto {
+        max-width: 150px;
+        width: auto;
+        height: auto;
+        border-radius: 18px;
+    }
+    
+    #linguagens {
+       max-width: 300px;
+    }
+
+    section img {
+        animation-duration: 0.2s;
+    }
+
+    section#linguagens {
+        animation-duration: 0.4s;
+    }
+
+    @keyframes imagens {
+        0% {width: 0; opacity: 0;}
+        100% {width: 300px; opacity: 100%;}
+    }
+    
+    @keyframes bloco {
+        0% {width: 0; opacity: 0;}
+        100% {width: 850px; opacity: 100%;}
+    }
+}
+
+
 @media (max-width: 600px) {
 
     section#linguagens {
@@ -202,25 +274,3 @@ div p {
     }
 }
 
-@media (max-width: 900px) {
-    #htmlfoto {
-        max-width: 100px;
-        width: auto;
-        height: auto;
-    }
-    #cssfoto {
-        max-width: 100px;
-        width: auto;
-        height: auto;
-    }
-    #javascriptfoto {
-        max-width: 95px;
-        width: auto;
-        height: auto;
-        border-radius: 18px;
-    }
-    
-    #linguagens {
-       max-width: 300px;
-    }
-}
